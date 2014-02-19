@@ -7,8 +7,17 @@
     <!-- lib -->
     <script type="text/javascript" src="lib/angular/angular.js"></script>
     <script type="text/javascript" src="lib/angular/angular-route.js"></script>
+
+    <!-- js -->
+    <script type="text/javascript" src="typescript/service/uuid-generate-service.js"></script>
+    <script type="text/javascript" src="typescript/controller/uuid-generate-controller.js"></script>
+    <script type="text/javascript" src="typescript/Ignite.js"></script>
+
     <title>Web UUID Generator</title>
 </head>
 <body>
+<div ng-controller="UuidGenerateController">
+    {{uuid}}
+</div>
 </body>
 </html>
