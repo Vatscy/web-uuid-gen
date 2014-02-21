@@ -2,8 +2,6 @@
  * モジュールの作成や動作の定義。
  */
 module App {
-    "use strict";
-
     export var appName = "web-uuid-gen";
 
     // モジュールの定義

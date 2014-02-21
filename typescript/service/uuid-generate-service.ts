@@ -1,6 +1,4 @@
 module Service {
-    "use strict";
-
     export class UuidGenerateService {
         newUuid() {
             var new4Data = () => {
