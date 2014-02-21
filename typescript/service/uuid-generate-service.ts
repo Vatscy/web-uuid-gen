@@ -4,7 +4,11 @@ module Service {
             var new4Data = () => {
                 var max:number = Math.pow(16, 4) - 1;
                 var newNum:number = Math.floor(Math.random() * max);
-                return newNum.toString(16);
+                var newNumToStr:string = newNum.toString(16);
+                while (newNumToStr.length < 4) {
+                    newNumToStr = "0" + newNumToStr;
+                }
+                return newNumToStr;
             };
 
             var data1:string = new4Data() + new4Data();
