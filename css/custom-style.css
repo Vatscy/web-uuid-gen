@@ -1,7 +1,8 @@
 body {
     margin-top: 200px;
+    text-align: center;
 }
 
-#title {
-    text-align: center;
+#presented {
+    margin-bottom: 10px;
 }
