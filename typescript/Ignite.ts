@@ -137,3 +137,10 @@ module App {
         }
     );
 }
+
+/**
+ * Initializing
+ */
+$(function() {
+    $("#refresh-button").tooltip();
+});
