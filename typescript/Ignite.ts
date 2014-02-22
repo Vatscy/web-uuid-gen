@@ -137,3 +137,17 @@ module App {
         }
     );
 }
+
+/**
+ * Initializing
+ */
+$(function() {
+    $("#refresh-button").tooltip();
+
+    ZeroClipboard.config({
+        moviePath: "lib/zeroclipboard/ZeroClipboard.swf",
+        // hoverClass: "dummy-class",
+        // autoActivate: false
+    });
+    var client:ZeroClipboard = new ZeroClipboard(document.getElementById("copy-button"));
+});
